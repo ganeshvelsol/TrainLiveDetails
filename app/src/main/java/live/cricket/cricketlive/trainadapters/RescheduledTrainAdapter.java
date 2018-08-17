@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -49,6 +50,7 @@ public class RescheduledTrainAdapter extends RecyclerView.Adapter<RescheduledTra
     class ViewHolderss extends RecyclerView.ViewHolder
     {
         TextView train_name_resch,train_number_resch,train_date_resch,train_time_resch;
+        LinearLayout llm;
         public ViewHolderss(View itemView)
         {
             super(itemView);
